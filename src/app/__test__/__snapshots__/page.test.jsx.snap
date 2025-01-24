@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product Page render renders a heading 1`] = `
+<div>
+  <div>
+    <div
+      class="bg-[url(/images/banner.jpeg)] h-80 pt-20 pb-20"
+    >
+      <h2
+        class="text-white text-5xl text-center font-semibold"
+      >
+        More than a 
+        <span
+          class="text-orange-400"
+        >
+          pharmacy
+        </span>
+         - 
+        Your partner in 
+        <span
+          class="text-rose-500"
+        >
+          wellness
+        </span>
+        !
+      </h2>
+      <form
+        class="m-auto w-[600px] relative"
+      >
+        <div
+          class="relative mt-10"
+        >
+          <input
+            class="w-full p-4 m-2 rounded-full bg-white"
+            placeholder="Search for a product..."
+            type="search"
+            value=""
+          />
+          <svg
+            aria-hidden="true"
+            class="absolute w-6 h-6 right-1 top-1/2 -translate-y-1/2 "
+            data-slot="icon"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+      </form>
+    </div>
+    <div
+      class="m-4 flex flex-wrap gap-6 justify-center"
+    >
+      <p
+        class="text-center text-gray-500 mt-4"
+      >
+        No products found.
+      </p>
+    </div>
+    <div
+      class="flex justify-center mt-6 space-x-4"
+    >
+      <button
+        class="px-4 py-2 bg-gray-300 rounded disabled:opacity-50"
+        disabled=""
+      >
+        Previous
+      </button>
+      <span
+        class="py-2"
+      >
+        Page 
+        1
+      </span>
+      <button
+        class="px-4 py-2 bg-gray-300 rounded disabled:opacity-50"
+        disabled=""
+      >
+        Next
+      </button>
+    </div>
+    <a
+      class="inline-block text-orange-400 p-5 font-bold hover:underline"
+      href="/products"
+    >
+      View All 
+      &gt;
+    </a>
+  </div>
+</div>
+`;
