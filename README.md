@@ -11,8 +11,11 @@ npm test /src/app/**test**/page.test.js
 **##Folder Structure:**
 
 app - Contains product, product details pages and unit Test case for product details page.
+
 component - Contains reusable component.
+
 services - Contain api data fetching.
+
 utils - Contains hook utils.
 
 **##Components:**
