@@ -21,6 +21,7 @@ utils - Contains hook utils.
 **##Components:**
 
 ProductPage - app/page.js
+
 ProductDetailsPage - app/products/[slug]/page.js
 
 **##Reusable Components:**
